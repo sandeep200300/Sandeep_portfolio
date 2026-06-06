@@ -295,53 +295,38 @@ body{
    FOOTER
 ========================= */
 
+/* =========================
+   FOOTER
+========================= */
+
 footer{
     text-align:center;
     padding:40px;
     color:#94a3b8;
+    margin-top:40px;
 }
 
 /* =========================
-   MOBILE RESPONSIVE
+   FOOTER CONTACT
 ========================= */
 
-@media (max-width:768px){
+.footer-contact{
+    margin-top:15px;
+}
 
-    .navbar{
-        flex-direction:column;
-        gap:15px;
-        padding:20px;
-    }
+.footer-contact p{
+    margin:10px 0;
+    font-size:1rem;
+}
 
-    .nav-links{
-        flex-wrap:wrap;
-        justify-content:center;
-        gap:15px;
-    }
+.footer-contact a{
+    color:red;
+    text-decoration:none;
+    font-weight:600;
+    transition:0.3s;
+}
 
-    .hero h1{
-        font-size:2.4rem;
-    }
-
-    .hero h2{
-        font-size:1.2rem;
-    }
-
-    .section{
-        padding:80px 6%;
-    }
-
-    .section h2{
-        font-size:2rem;
-    }
-
-    .avatar{
-        width:120px;
-        height:120px;
-        font-size:2.5rem;
-    }
-
-    .hero-buttons{
-        justify-content:center;
-    }
+.footer-contact a:hover{
+    text-decoration:underline;
+    color:#ff4d4d;
 }
