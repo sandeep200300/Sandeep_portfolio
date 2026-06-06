@@ -320,13 +320,13 @@ footer{
 }
 
 .footer-contact a{
-    color:red;
+    color:white;
     text-decoration:none;
-    font-weight:600;
-    transition:0.3s;
+    margin-left:8px;
+    font-weight:500;
 }
 
 .footer-contact a:hover{
     text-decoration:underline;
-    color:#ff4d4d;
+    color:#38bdf8;
 }
